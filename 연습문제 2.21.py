@@ -1,0 +1,5 @@
+n = int(input("정수를 입력하세요: "))
+binary_n = bin(n)
+bitwise_not_n = bin(~n)
+print(f"{n} 의 2진수 값 : {binary_n}")
+print(f"{n} 의 2진수 값에 대한 비트단위 부정값 : {bitwise_not_n}")
