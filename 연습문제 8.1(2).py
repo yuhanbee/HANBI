@@ -1,0 +1,11 @@
+from datetime import datetime, timedelta
+start_date = datetime(2019, 2, 14)
+hundred_days = start_date + timedelta(days=100)
+two_hundred_days = start_date + timedelta(days=200)
+five_hundred_days = start_date + timedelta(days=500)
+thousand_days = start_date + timedelta(days=1000)
+print(f"춘향이와 몽룡이의 연애 시작일 : {start_date.strftime('%Y년 %m월 %d일')}")
+print(f"춘향이와 몽룡이의 100일 기념일 : {hundred_days.strftime('%Y년 %m월 %d일')}")
+print(f"춘향이와 몽룡이의 200일 기념일 : {two_hundred_days.strftime('%Y년 %m월 %d일')}")
+print(f"춘향이와 몽룡이의 500일 기념일 : {five_hundred_days.strftime('%Y년 %m월 %d일')}")
+print(f"춘향이와 몽룡이의 1,000일 기념일 : {thousand_days.strftime('%Y년 %m월 %d일')}")
